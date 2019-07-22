@@ -1,0 +1,59 @@
+body {
+	background-color #861657;
+	background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+	height: 100vh;
+}
+.container {
+	width: 600px;
+	margin: 0 auto;
+	background:rgb(0, 0, 0, .8);
+	padding: 100px;
+	color: #fff;
+	border-radius: 15px;
+	font-size: 18px;
+}
+
+.tab-menu {
+	padding: 15px;
+	display: inline-flex;
+	text-align: center;
+
+}
+
+.tab-menu .tab {
+	padding: 6px 60px;
+	border: solid 2px;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: .9;
+}
+
+.tab-menu .tab:hover {
+	background: yellow;
+	color: #000;
+}
+
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity:.1}
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: .1}
+  to {opacity: 1}
+}
